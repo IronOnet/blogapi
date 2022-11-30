@@ -18,7 +18,7 @@ class Config(object):
     MAIL_PASSWORD= os.environ.get('MAIL_PASSWORD') 
     ADMINS= ['adminemail@example.com'] 
     LANGUAGES = ['en', 'fr', 'sw', 'ln'] 
-    MS_TRANSLATOR_KEY= = os.environ.get('MS_TRANSLATOR_KEY') 
-    ELASTICSEARCH_URL = os.envion.get('ELASTICSEARCH_URL')
+    MS_TRANSLATOR_KEY=os.environ.get('MS_TRANSLATOR_KEY') 
+    ELASTIC_SEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
     REDIS_URL = os.environ.get('REDIS_URL') or 'redis://' 
     POSTS_PER_PAGE = 25
